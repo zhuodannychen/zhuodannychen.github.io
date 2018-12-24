@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Pacifico');
+		@import url('https://fonts.googleapis.com/css?				     		 family=Nova+Mono');
+		h2{
+			font-family: 'Pacifico', cursive;
+		}
+		h1{
+			font-family: 'Nova Mono', monospace;
+		}
+	</style>
+</head>
+<body>
+    <div id = "title"style="Display:None">Tic Tac Toe Welcome</div>
+    <div id = "message" style="Display:None">Let's Play</div>
+    <div id = "messageWin" style="Display:None"></div>
+ <div id="start">
+    <h1>Choose A Mode</h1>
+	  <h2>Tic Tac Toe</h2>
+    <button id = "1" onclick='startClick("easy")'>1 Player Easy</button>
+    <button id = "2" onclick='startClick("hard")'>1 Player Hard</button>
+    <button id = "3" onclick='startClick("two")'>2 Player </button>
+ </div>
+  <div id="game" style="display:none">
+   <button onclick="reset()">Reset</button>
+   <button onclick = 'resetClick()'>Return</button>
+   <table border = "20">
+      <tr>
+        <td class = "Square" id="Box00" onclick="onBoxClick(this);"></td>
+        <td class = "Square" id="Box01" onclick="onBoxClick(this);"></td>
+        <td class = "Square" id="Box02" onclick="onBoxClick(this);"></td>
+      </tr>
+      <tr>
+        <td class = "Square" id="Box10" onclick="onBoxClick(this);"></td>
+        <td class = "Square" id="Box11" onclick="onBoxClick(this);"></td>
+        <td class = "Square" id="Box12" onclick="onBoxClick(this);"></td>
+      </tr>
+      <tr>
+        <td class = "Square" id="Box20" onclick="onBoxClick(this);"></td>
+        <td class = "Square" id="Box21" onclick="onBoxClick(this);"></td>
+        <td class = "Square" id="Box22" onclick="onBoxClick(this);"></td>
+      </tr>
+    </table>
+</body>
+
+</html>

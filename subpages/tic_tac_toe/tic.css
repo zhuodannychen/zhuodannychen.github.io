@@ -17,9 +17,10 @@ h2 {
   text-shadow: 10px 10px 7px #aaa;
 }
 
-button{
+#start button{
   height: 40px;
   width: 100px;
+  margin: 25px 0px 0px 0px;
   background: lightblue;
 }
 

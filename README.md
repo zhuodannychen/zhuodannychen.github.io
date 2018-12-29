@@ -1,1 +1,1 @@
-[A para-site](https://zhuodannychen.github.io)
+[A Site](https://zhuodannychen.github.io)

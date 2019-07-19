@@ -1,4 +1,4 @@
-[Demo](https://zhuodannychen.github.io/)
+[Demo](https://sketchai.netlify.com/)
 
 SketchAI is the capstone project of the 2018-19 PWSH Artificial Intelligence Club. 
 It uses a Convolutional Neural Network (CNN) that was hand-trained by students to recognize hand-drawn sketches. 

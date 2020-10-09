@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 class Experiences extends Component {
     render() {
         return (
-            <div className="experiences-container" style={{paddingTop: "30px", background: "#EFEFEF"}} id={this.props.id}>
+            <div className="experiences-container" style={{paddingTop: "30px", background: "#EFEFEF", padding: "20px"}} id={this.props.id}>
                 <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
                     <h1 className="about-title">EXPERIENCES</h1>
                 </ScrollAnimation>
@@ -16,7 +16,7 @@ class Experiences extends Component {
                     <hr style={{width: "90px", border: "1.5px solid black", marginBottom: "60px"}}/>
                 </ScrollAnimation>
 
-                <VerticalTimeline>
+                <VerticalTimeline className="container">
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         date="August 2020 - Present"

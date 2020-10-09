@@ -1,9 +1,9 @@
 .nav {
   background-color: #111;
   position: sticky;
-  top: 0px;
+  top: 0;
   width: 100%;
-  height: 68px;
+  height: 60px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   border-bottom: 3px solid #00acee;
@@ -13,6 +13,7 @@
   max-width: 900px;
   padding: 0;
   margin: 0;
+  margin-top: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,16 +27,19 @@
   transition: 0.3s ease all;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
   /*font-family: 'Muli', sans-serif;*/
 }
 
 .nav-items .nav-item:hover {
   color: #00acee;
+  text-decoration: none;
   cursor: pointer;
   transition: 0.3s ease all;
 }
 
 .nav-item > .active {
+  text-decoration: none;
   color: #00acee;
   transition: 0.3s ease all;
 }
@@ -173,9 +177,6 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
   background: #FAFAFA;
 }
 
-.project-list {
-    padding: 0 8em;
-}
 
 .projects-title {
   text-align: center;
@@ -190,7 +191,6 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
  
 .project-comp-title {
   margin-bottom: 0;
-  margin-left: 50px;
   font-family: 'Muli', sans-serif;
   font-size: 30px;
 }
@@ -204,22 +204,24 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
   font-family: 'Muli', sans-serif;
   font-size: 15px;
   color: grey;
-  margin-left: 50px;
 }
 
 .project-comp-img {
+    /*
   margin: 0 50px;
-  width: 400px;
   height: auto; 
+  */
+  width: 100%;
+  object-fit: cover;
+  height: auto;
   border-radius: 8px;
   border: 1px solid grey;
   box-shadow: 5px 5px 5px grey;
 }
 
 .project-comp-text {
-  margin-right: 70px;
   font-size: 19px;
-  font-family: "Esteban", serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .project-comp-links a {
@@ -244,7 +246,7 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
 
 .separator {
   opacity: 0;
-  margin-bottom: 20vh;
+  margin: 5vh; 
 }
 
 svg {
@@ -276,19 +278,19 @@ footer {
   padding-bottom: 30px;
 }
 
-.footer-button {
+.footerButton {
   font-size: 40px;
   width: 200px;
-  height: 50px;
   margin: 60px;
   padding: 0;
   border: 3px solid white;
   color: white;
+  border-radius: 0;
   background: transparent;
   transition: 0.3s ease;
 }
 
-.footer-button:hover {
+.footerButton:hover {
   color: white;
   cursor: pointer;
   background: #00acee;
@@ -357,7 +359,7 @@ footer {
 
 @media screen and (max-width: 850px) {
   .nav-item {
-    font-size: 11px;
+    font-size: 8px;
     margin: 6px;
   }
   .homepage-container .text-content {
@@ -384,13 +386,9 @@ footer {
       margin: 1.3em 2em;
   }
 
-  .project-list {
-    padding: 0 2em;
-  }
-
   .project-comp-title {
-    margin-left: 20px;
-  }
+    font-size: 20px;
+  } 
 
   .project-comp-title span {
     color: grey;
@@ -398,24 +396,15 @@ footer {
   } 
 
   .project-comp-madeWith {
-    margin-left: 20px;
     font-size: 15px;
-  }
-
-  .project-comp-img {
-    height: 150px;
-    width: 150px;
-    margin: 20px;
   }
 
   .project-comp-text {
     font-size: 15px;
-    margin: 20px;
-    padding-top: 18px;
   }
 
   .separator {
-    margin-bottom: 12vh;
+    margin-bottom: 1vh;
   }
 
   .contact-text {

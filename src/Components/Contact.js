@@ -16,8 +16,8 @@ class Contact extends Component {
                 
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.5} offset={250}>
                     <h1 className="contact-text" style={{color: "white", fontFamily: 'Work Sans'}}>What's on your mind?</h1>
-                    <h3 className="contact-text" style={{color: "white", fontFamily: 'Work Sans'}}>Email: zhuodannychen (at) gmail.com</h3>
-                    <Link to="home" spy={true} smooth={true} offset={-70} duration={500}><button type="button" className="footer-button"><i className="fa fa-angle-double-up"></i></button></Link>
+                    <h3 className="contact-text" style={{color: "#AAA", fontFamily: 'Work Sans'}}>zhuodannychen [at] gmail.com</h3>
+                    <Link to="home" spy={true} smooth={true} offset={-70} duration={500}><button type="button" className="btn footerButton"><i className="fa fa-angle-double-up"></i></button></Link>
                 </ScrollAnimation>
                 <footer>
                     <div className="social-links">

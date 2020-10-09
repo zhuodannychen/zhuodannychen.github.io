@@ -51,7 +51,7 @@ class About extends Component {
                     <div style={{textAlign: "center", alignItems: "center"}}>
                         <img className="about-picture" src={AboutPortrait} alt=""/>
                     </div>
-                    <p className="about-bio" style={{textAlign: "center", fontFamily: "Esteban, serif"}}>Hello! My name is Zhuo (Danny) Chen, and I am a student at Texas A&M.
+                    <p className="about-bio" style={{textAlign: "center", fontFamily: "'Open Sans', sans-serif"}}>Hello! My name is Zhuo (Danny) Chen, and I am a student at Texas A&M.
                     I'm very passionate about learning, teaching, and just creating things in general (like this website). <br />
                     My interest in the field of Computer Science include artificial intelligence, web development, and competitive programming.
                     Other than CS, I enjoy investing, breakdancing, and solving the Rubik's Cube, with a personal best time of 14.68 seconds.

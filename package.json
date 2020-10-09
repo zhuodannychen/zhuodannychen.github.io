@@ -2,13 +2,13 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhuodannychen.github.io/",
+  "homepage": "https://zhuodannychen.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "animate.css": "^3.7.2",
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.13.1",
@@ -27,7 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

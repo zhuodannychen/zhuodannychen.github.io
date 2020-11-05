@@ -22,13 +22,8 @@ class About extends Component {
   render() {
     return (
       <div className="about-container" id={this.props.id}>
-        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
-            <h1 className="about-title">ABOUT</h1>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
-            <hr style={{width: "52px", border: "1.5px solid black", marginBottom: "60px"}}/>
-        </ScrollAnimation>
+        <h1 className="about-title">ABOUT</h1>
+        <hr style={{width: "52px", border: "1.5px solid black", marginBottom: "60px"}}/>
 
 {/*
             <div className="characteristics-container">
@@ -53,7 +48,7 @@ class About extends Component {
                     </div>
                     <p className="about-bio" style={{textAlign: "center", fontFamily: "'Open Sans', sans-serif"}}>Hello! My name is Zhuo (Danny) Chen, and I am a student at Texas A&M.
                     I'm very passionate about learning, teaching, and just creating things in general (like this website). <br />
-                    My interest in the field of Computer Science include artificial intelligence, web development, and competitive programming.
+                    My interest in the field of Computer Science includes artificial intelligence, web development, and competitive programming.
                     Other than CS, I enjoy investing, breakdancing, and solving the Rubik's Cube, with a personal best time of 14.68 seconds.
                     </p>
                 </ScrollAnimation>

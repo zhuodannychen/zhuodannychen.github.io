@@ -7,15 +7,21 @@ class Projects extends Component {
     render() {
         return (
             <div className="projects-container" id={this.props.id}>
-                <ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={1.5}>
-                    <h1 className="projects-title">PROJECTS</h1>
-                </ScrollAnimation>
+                <h1 className="projects-title">PROJECTS</h1>
+                <hr style={{width: "93px", border: "1.5px solid black"}}></hr>
 
-                <ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={1.5}>
-                    <hr style={{width: "93px", border: "1.5px solid black"}}></hr>
-                </ScrollAnimation>
                 <div className="container">
                     <hr className="separator"/>
+                    <ProjectContainer 
+                        project_name="StockBot" 
+                        project_date="September 2020" 
+                        madeWith="Python, Tensorflow"
+                        project_img="https://s15993.pcdn.co/wp-content/uploads/2016/07/Wall-Street-Wallpapers-Widescreen-HD-Wallpaper.jpg"
+                        project_body="Financial illiteracy is an increasingly problem among college students. A discord bot
+                        can allow easier communication and sharing of resources to learn more about the market."
+                        github_link="https://github.com/zhuodannychen/StockBot"
+                    />
+
                     <ProjectContainer 
                         project_name="CLearn" 
                         project_date="July 2020" 

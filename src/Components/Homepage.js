@@ -68,7 +68,7 @@ class Homepage extends Component {
                         <Typist.Delay ms={500} />
                         <span style={{color: "white"}}>I am a web developer and competitive programmer.</span>
                     </Typist>
-                    <Link to="about" spy={true} smooth={true} offset={-8} duration={500}><button type="button" className="more-button">View my works <i className="fa fa-arrow-down"></i></button></Link>
+                    <Link to="about" spy={true} smooth={true} offset={-70} duration={500}><button type="button" className="more-button">View my works <i className="fa fa-arrow-down"></i></button></Link>
                     </ScrollAnimation>
                 </div>
             </div>

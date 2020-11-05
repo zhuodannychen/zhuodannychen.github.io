@@ -6,13 +6,8 @@ class Contact extends Component {
     render() {
         return (
             <div className="contact-container" id={this.props.id}>
-                <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
-                    <h1 className="contact-title" style={{color: "white", fontSize: "55px", marginBottom: "0"}}>CONTACT</h1>
-                </ScrollAnimation>
-
-                <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
-                    <hr style={{width: "100px", border: "1.5px solid white", marginBottom: "100px"}}></hr>
-                </ScrollAnimation>
+                <h1 className="contact-title" style={{color: "white", fontSize: "55px", marginBottom: "0"}}>CONTACT</h1>
+                <hr style={{width: "100px", border: "1.5px solid white", marginBottom: "100px"}}></hr>
                 
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.5} offset={250}>
                     <h1 className="contact-text" style={{color: "white", fontFamily: 'Work Sans'}}>What's on your mind?</h1>

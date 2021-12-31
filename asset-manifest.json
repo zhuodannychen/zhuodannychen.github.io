@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a89d4f2.chunk.css",
+    "main.js": "/static/js/main.e9dc17f3.chunk.js",
+    "main.js.map": "/static/js/main.e9dc17f3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
+    "static/css/2.ac1ab58b.chunk.css": "/static/css/2.ac1ab58b.chunk.css",
+    "static/js/2.bdbc493e.chunk.js": "/static/js/2.bdbc493e.chunk.js",
+    "static/js/2.bdbc493e.chunk.js.map": "/static/js/2.bdbc493e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4b4066480f3eeaaf8fc745e8f9196257.js": "/precache-manifest.4b4066480f3eeaaf8fc745e8f9196257.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ac1ab58b.chunk.css.map": "/static/css/2.ac1ab58b.chunk.css.map",
+    "static/css/main.0a89d4f2.chunk.css.map": "/static/css/main.0a89d4f2.chunk.css.map",
+    "static/js/2.bdbc493e.chunk.js.LICENSE.txt": "/static/js/2.bdbc493e.chunk.js.LICENSE.txt",
+    "static/media/danny1_4_16_2020.jpg": "/static/media/danny1_4_16_2020.4ef97c0f.jpg",
+    "static/media/editorial.pdf": "/static/media/editorial.836a9d12.pdf",
+    "static/media/pwsh_invitational.png": "/static/media/pwsh_invitational.ec9bc58f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceaf4b5f.js",
+    "static/css/2.ac1ab58b.chunk.css",
+    "static/js/2.bdbc493e.chunk.js",
+    "static/css/main.0a89d4f2.chunk.css",
+    "static/js/main.e9dc17f3.chunk.js"
+  ]
+}
